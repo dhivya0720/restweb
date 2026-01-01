@@ -1,0 +1,192 @@
+body
+{
+    background: url(background.png)no-repeat center/contain;
+    background-size:cover;
+}
+.content
+{
+    
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding:5px;
+    justify-content: space-evenly;
+    top:40px;
+    right:40px;
+    position:absolute;
+    align-items: center;
+}
+.header
+{
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container
+{
+
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+.menu
+{
+   background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    height: auto;  
+    width:100%;               
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.starter1
+{
+     background: rgba(226, 110, 168, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    height: 350px;  
+    width:240px;               
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.starter1 img {
+     width: 50%;
+    height: 200px;                
+    object-fit: cover;
+    border-radius: 12px;
+}
+.price
+{
+     font-weight: bold;
+    color:blueviolet;
+}
+.starter2
+{
+     background: rgba(226, 110, 168, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    height: 350px;  
+    width:240px;               
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.starter2 img {
+     width: 50%;
+    height: 200px;                
+    object-fit: cover;
+    border-radius: 12px;
+}
+.price
+{
+     font-weight: bold;
+    color:blueviolet;
+}
+.pizza
+{
+     background: rgba(226, 110, 168, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    height: 350px;  
+    width:240px;               
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pizza img {
+     width: 50%;
+    height: 200px;                
+    object-fit: cover;
+    border-radius: 12px;
+}
+.price
+{
+     font-weight: bold;
+    color:blueviolet;
+}
+.pasta
+{
+     background: rgba(226, 110, 168, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    height: 350px;  
+    width:240px;               
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pasta img {
+     width: 50%;
+    height: 200px;                
+    object-fit: cover;
+    border-radius: 12px;
+}
+.price
+{
+     font-weight: bold;
+    color:blueviolet;
+}
+.main-course
+{
+     background: rgba(226, 110, 168, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    height: 350px;  
+    width:240px;               
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-course img {
+     width: 50%;
+    height: 200px;                
+    object-fit: cover;
+    border-radius: 12px;
+}
+.price
+{
+     font-weight: bold;
+    color:blueviolet;
+}
+.dish
+{
+     background: rgba(226, 110, 168, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    height: 350px;  
+    width:240px;               
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dish img {
+     width: 50%;
+    height: 200px;                
+    object-fit: cover;
+    border-radius: 12px;
+}
+.price
+{
+     font-weight: bold;
+    color:blueviolet;
+}
